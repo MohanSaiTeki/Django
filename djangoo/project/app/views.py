@@ -5,6 +5,8 @@ from django.core.files import File
 from wsgiref.util import FileWrapper
 # Create your views here.
 
+
+
 def index(request):
     return render(request, 'index.html')
 
